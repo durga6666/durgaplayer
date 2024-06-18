@@ -1,0 +1,96 @@
+.cnt{
+    background-color: #13141b;
+    color: #ffffff;
+    background-image: url(./bg-image.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    min-height: 100vh;
+}
+#search-field{
+    background-color:rgba(255, 255, 255, 0.9);
+    padding: 22px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+}
+
+.single-result{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+}
+
+.control-btn {
+    margin: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.playlist-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.audio-player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.audio-player .current-song {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.controls .control-btn {
+    background-color: #0c0c0c;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.control-btn:hover {
+    background-color: #110bcd; 
+}
+
+
+.btn-primary {
+    background-color: #110bcd !important; 
+    border-color: #110bcd !important; 
+}
+
+.single-result:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+
+.playlist-item:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+#player{
+    color: green;
+}
+#player {
+    color: green;
+    font-weight: bold;
+}
+
+.fa-music {
+    margin-right: 5px;
+}
